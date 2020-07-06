@@ -64,3 +64,9 @@ footer p{
     text-align: center;
     color: gray;
 }
+@media (max-width: 720px ){
+.col-md-3{
+    width: 47%;
+}
+}
+

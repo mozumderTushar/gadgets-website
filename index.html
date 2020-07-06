@@ -3,9 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gadgets</title>
+    <link rel="shortcut icon" href="img/itsagadget-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--========================================== NAVBAR =================================================-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!--========================================== CAROUSEL ===============================================-->
+    <div class="container" >
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mackbook Pro</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto quasi nemo quo eveniet incidunt obcaecati, modi laborum qui ut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, placeat.</p>
+                        <button class="buy-now-button">Buy Now➜</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-products/product-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Amazon Alexa</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto quasi nemo quo eveniet incidunt obcaecati, modi laborum qui ut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, placeat.</p>
+                        <button class="buy-now-button">Buy Now➜</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>JBL Xtreme 2</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto quasi nemo quo eveniet incidunt obcaecati, modi laborum qui ut Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, placeat.</p>
+                        <button class="buy-now-button">Buy Now➜</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+     <!--====================================== SMARTPHONE ============================================-->
+     <div class="container" id="product">
+         <div class="see-all d-flex justify-content-between">
+            <h3>Smartphone</h3>
+            <a href="">See All</a>
+         </div>
+         <div class="card-deck">
+            <div class="card">
+              <img src="img/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Redmi 9pro Max</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <button class="buy-now-button">Buy Now➜</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">iPhone 11 Pro</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                <button class="buy-now-button">Buy Now➜</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                <button class="buy-now-button">Buy Now➜</button>
+              </div>
+            </div>
+          </div>
+     </div>
+          <!--====================================== LAPTOP ===========================================-->
+          <div class="container">
+            <div class="see-all d-flex justify-content-between">
+                <h3>Laptop</h3>
+                <a href="">See All</a>
+             </div>
+            <div class="card-deck">
+               <div class="card">
+                 <img src="img/laptop/product-1.png" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">ASUS VivoBook</h5>
+                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                   <button class="buy-now-button">Buy Now➜</button>
+                 </div>
+               </div>
+               <div class="card">
+                 <img src="img/laptop/product-2.png" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">Lenovo Chromebook S345</h5>
+                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                   <button class="buy-now-button">Buy Now➜</button>
+                 </div>
+               </div>
+               <div class="card">
+                 <img src="img/laptop/product-3.png" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">Acer Spin 11 CP311-1H-C5PN</h5>
+                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+                   <button class="buy-now-button">Buy Now➜</button>
+                 </div>
+               </div>
+             </div>
+        </div>
+        <!--================================== CATEGORIES ========================================-->
+        <div class="container">
+            <h3 class="text-center">Categories</h3>
+            <div class="line"></div>
+             <div class="row">
+                 <div class="col-md-3 d-flex align-items-center">
+                     <img class="img-fluid w-100" src="img/Categories/bag.png" alt="" id="cat">
+                 </div>
+                 <div class="col-md-3">
+                     <div class="row ">
+                        <img class="img-fluid w-100" src="img/Categories/perfume.png" alt="" id="cat">
+                     </div>
+                     <div class="row">
+                        <img class="img-fluid w-100" src="img/Categories/shoe.png" alt="" id="cat">
+                     </div>
+                 </div>
+                 <div class="col-md-6 d-flex align-items-center">
+                     <img class="img-fluid w-100" src="img/Categories/pale-order.png" alt="">
+                 </div>
+             </div>
+        </div>
+         <!--================================== STAY IN TOUCH ========================================-->
+        <div class="container d-flex justify-content-center  align-items-center" id="contact-us">
+            <div>
+              <h3>LET'S STAY IN TOUCH</h3>
+              <h6>Get update on sales and more</h6>
+              <input type="text" class="form-control" placeholder="Enter your email">
+              <button type="submit" class="submit-button">Submit</button>
+            </div>
+          </div>
+        <!--================================== FOOTER ========================================-->
+        <footer>
+            <p>©2020.Hot Gadgets. All rights reserved.Dhaka,Bangladesh. </p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
